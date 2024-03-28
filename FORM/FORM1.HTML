@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <center>
+            <table width="65%" border="0" bgcolor="blue" cellpadding="10%">
+                <caption>
+                    <h2>Student Registration Form</h2>
+                </caption>
+                <tr>
+                    <td align="right">
+                        <font color="white">First Name : </font>
+                    </td>
+                    <td><input type="text" required placeholder="Your Name">
+                        <font color="white">( max 30 characters a-z and A-Z
+                            )</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Last Name :</font>
+                    </td>
+                    <td><input type="text" required placeholder="Surname">
+                        <font color="white">( max 30 characters a-z and A-Z )</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Date of Birth :</font>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="" disabled selected> Day</Option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="" disabled selected>Month</Option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="" disabled selected>Year</Option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Email Id :</font>
+                    </td>
+                    <td>
+                        <input type="email" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Mobile No. :</font>
+                    </td>
+                    <td>
+                        <input type="text" inputmode="numeric" name="Phone Number" id="Phone Number" min="10" max="10"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+                        <font color="white">( 10 digit number)</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Gender :</font>
+                    </td>
+                    <td>
+                        <input type="radio" name="rdgen1" id="rdgen" value="" checked>
+                        <label for="rdgen">
+                            <font color="white">Male</font>
+                        </label>
+                        <input type="radio" name="rdgen1" id="rdgen1" value="">
+                        <label for="rdgen1">
+                            <font color="white">Female</font>
+                        </label>
+                        <input type="radio" name="rdgen1" id="rdgen2" value="">
+                        <label for="rdgen2">
+                            <font color="white">Other</font>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Address :</font>
+                    </td>
+                    <td>
+                        <textarea name="message" name="" row="5" column=50 id=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">City :</font>
+                    </td>
+                    <td>
+                        <input type="text" name="" placeholder="" id="">
+                        <font color="white">( max 30 characters a-z and A-Z )</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Pincode :</font>
+                    </td>
+                    <td>
+                        <input type="tel" name="" placeholder="" id="">
+                        <font color="white">( 6 digit number)</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">State :</font>
+                    </td>
+                    <td>
+                        <input type="text" name="" placeholder="" id="">
+                        <font color="white">( max 30 characters a-z and A-Z )</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Country :
+                    </td>
+                    <td>
+                        <input type="text" name="" value="India" placeholder="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Hobbies :</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label for="">
+                            <font color="white">Drawing</font>
+                        </label>
+                        <input type="checkbox">
+                        <label for="">
+                            <font color="white">Singing</font>
+                        </label>
+                        <input type="checkbox">
+                        <label for="">
+                            <font color="white">Dancing</font>
+                        </label>
+                        <input type="checkbox">
+                        <label for="">
+                            <font color="white">Sketching</font>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">
+                        <label for="">
+                            <font color="white">Others :</font>
+                        </label>
+                        <input type="text" name="" placeholder="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" align="right">
+                        <font color="white">Qualification :</font>
+                    </td>
+                    <td>
+                        <table border="0">
+                            <tr>
+                                <td>
+                                    <font color="white">Sr. No.</font>
+                                </td>
+                                <td>
+                                    <font color="white">Examination</font>
+                                </td>
+                                <td align="center">
+                                    <font color="white">Board</font>
+                                </td>
+                                <td align="center">
+                                    <font color="white">Percentage</font>
+                                </td>
+                                <td align="center">
+                                    <font color="white">Year of Passing</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font color="white">1</font>
+                                </td>
+                                <td>
+                                    <font color="white">Class X</font>
+                                </td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font color="white">2</font>
+                                </td>
+                                <td>
+                                    <font color="white">Class XII</font>
+                                </td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font color="white">3</font>
+                                </td>
+                                <td>
+                                    <font color="white">Graduation</font>
+                                </td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font color="white">4</font>
+                                </td>
+                                <td>
+                                    <font color="white">Masters</font>
+                                </td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                                <td><input type="text" name="" placeholder="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td align="center">
+                                    <font color="white">( 10 chr max )</font>
+                                </td>
+                                <td align="center">
+                                    <font color="white">( upto 2 decimal )</font>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <font color="white">Courses Applied for :</font>
+                    </td>
+                    <td><input type="radio" name="rdcourse" id="RDCRS1" value="" checked>
+                        <label for="RDCRS1">
+                            <font color="white">BCA</font>
+                        </label>
+                        <input type="radio" name="rdcourse" id="RDCRS2" value="">
+                        <label for="RDCRS2">
+                            <font color="white">B.Com.</font>
+                        </label>
+                        <input type="radio" name="rdcourse" id="rdgen3" value="">
+                        <label for="RDCRS3">
+                            <font color="white">B.Sc.</font>
+                        </label>
+                        <input type="radio" name="rdcourse" id="RDCRS4" value="">
+                        <label for="RDCRS4">
+                            <font color="white">B.A.</font>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+
+</html>
