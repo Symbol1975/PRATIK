@@ -1,0 +1,707 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*    SECTION - 1    */
+.section1 {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('IMAGE/1bkg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    padding-top: 60px;
+    width: 1348px;
+    height: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 85px;
+}
+
+.s1img1 {
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.s1sec {
+    margin-top: 80px;
+    font-size: 82px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1para {
+    font-size: medium;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.s1button {
+    background-color: orangered;
+    border-radius: 30px;
+    width: 170px;
+    padding: 8px;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+/*    SECTION - 2    */
+
+.section2 {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 239, 242);
+}
+
+.s2head {
+    font-size: 82px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s2txtarea {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s2sec {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.s2img {
+    margin-top: 50px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.s2name {
+    padding-top: 20px;
+    justify-content: center;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s2para {
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.s2logo1 {
+    height: 160px;
+    position: absolute;
+    top: 70px;
+    left: 1080px;
+}
+
+.s2logo2 {
+    height: 90px;
+    position: absolute;
+    top: 380px;
+    left: 1200px;
+}
+
+.s2logo3 {
+    height: 70px;
+    position: absolute;
+    top: 520px;
+    left: 800px;
+}
+
+.s2logo4 {
+    height: 90px;
+    position: absolute;
+    top: 520px;
+    left: 410px;
+}
+
+.s2logo5 {
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
+
+.s2logo6 {
+    height: 80px;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+}
+
+
+/*    SECTION - 3    */
+
+.section3 {
+    position: relative;
+    height: 100vh;
+    border: 1PX none;
+    background-color: orangered;
+    align-items: center;
+    align-content: center;
+}
+
+.s3sec {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.s3img {
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.s3head {
+    margin-top: 100px;
+    ;
+    text-align: left;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.s3para {
+    width: 500px;
+    padding-top: 20px;
+    ;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+.s3button {
+    background-color: WHITE;
+    border-radius: 30px;
+    width: 170px;
+    padding: 12px;
+    border: none;
+    color: orangered;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/*    SECTION - 4    */
+
+.section4 {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 239, 242);
+}
+
+.s4sec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 150px;
+    align-items: center;
+    align-content: center;
+}
+
+.s4img {
+    height: 350px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.s4head {
+    text-align: left;
+    font-size: 60px;
+    color: orangered;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.s4para {
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    color: orangered;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+.s4button {
+    background-color: orangered;
+    border-radius: 30px;
+    width: 170px;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+.s4logo1 {
+    /* BURGER LOGO */
+    height: 160px;
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    transform: scaleX(-1);
+}
+
+.s4logo2 {
+    /* LEAF LOGO */
+    height: 90px;
+    position: absolute;
+    top: 80px;
+    left: 1120px;
+    transform: rotate(-20deg);
+}
+
+.s4logo3 {
+    /* FRENCH FRIES LOGO */
+    height: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 1150px;
+    transform: scaleX(-1);
+}
+
+.s4logo4 {
+    /* MASHROOM LOGO */
+    height: 60px;
+    position: absolute;
+    bottom: 70px;
+    left: 570px;
+    transform: scaleX(-1);
+}
+
+.s4logo5 {
+    /* GARLIC LOGO */
+    height: 80px;
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    transform: scaleX(-1);
+}
+
+.s4logo6 {
+    /* MIRCHI LOGO */
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    transform: scaleX(-1);
+    left: -10px;
+}
+
+
+/*    SECTION - 5    */
+
+.section5 {
+    position: relative;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.s5head {
+    padding-top: 60px;
+    font-size: 82px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.s5txtarea {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+
+.s5sec {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.round {
+    border: 2px solid white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.s5name {
+    padding-top: 60px;
+    font-size: 80px;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.s5para {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*    SECTION - 6    */
+
+.section6 {
+    position: relative;
+    height: 100vh;
+    background-color: #f6eedf;
+    overflow-x: hidden;
+}
+
+.s6head {
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s6sec {
+    display: flex;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.pkgbox {
+    height: 320px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.s6name {
+    padding-top: 20px;
+    justify-content: center;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s6icon {
+    padding-top: 20px;
+    height: 80px;
+}
+
+.s6para {
+    padding-top: 20px;
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.s6detail {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+}
+
+.s6button {
+    background-color: orangered;
+    border-radius: 30px;
+    width: 170px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.s6logo1 {
+    /* BURGER LOGO */
+    height: 170px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    transform: rotate(20deg);
+}
+
+.s6logo2 {
+    /* GARLIC LOGO */
+    height: 80px;
+    position: absolute;
+    top: 150px;
+    right: -5px;
+    transform: rotate(20deg);
+}
+
+.s6logo3 {
+    /* FRENCH FRIES LOGO */
+    height: 150px;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    transform: scaleX(-1);
+}
+
+.s6logo4 {
+    /* MASHROOM LOGO */
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    transform: scaleX(-1);
+}
+
+.s6logo5 {
+    /* MIRCHI LOGO */
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    transform: scaleX(-1);
+    left: 20px;
+}
+
+.s6logo6 {
+    /* LEAF LOGO */
+    height: 90px;
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    transform: rotate(-20deg);
+}
+
+/*    SECTION - 7    */
+
+.section7 {
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 69, 0, 0.700), rgba(255, 69, 0, 0.700), rgba(255, 69, 0, 0.700)), url('IMAGE/7BKG.png');
+}
+
+.s7txtarea {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    font-family: "Archivo";
+    text-align: center;
+}
+
+.s7txthead {
+    font-size: 45px;
+    color: white;
+    font-weight: 400;
+    font-family: "Calistoga";
+    text-align: center;
+}
+
+
+/*    SECTION - 9    */
+
+.section8 {
+    position: relative;
+    height: 100vh;
+    background-color: #f6eedf;
+    align-items: center;
+    align-content: center;
+}
+
+.s8head {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.s8txtarea {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: orangered;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+
+.s8sec {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.s8email {
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 400px;
+    padding: 15px;
+    border: none;
+    color: black;
+}
+
+.s8button {
+    background-color: orangered;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.s8logo1 {
+    /* BURGER LOGO */
+    height: 170px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    transform: rotate(20deg);
+}
+
+.s8logo2 {
+    /* GARLIC LOGO */
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    transform: rotate(20deg);
+}
+
+.s8logo3 {
+    /* MIRCHI LOGO */
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    transform: scaleX(-1);
+    right: 200px;
+}
+
+.s8logo4 {
+    /* LEAF LOGO */
+    height: 80px;
+    position: absolute;
+    bottom: 50px;
+    left: 620px;
+    transform: scaleX(-1) rotate(-100deg);
+
+}
+
+.s8logo5 {
+    /* FRENCH FRIES LOGO */
+    height: 150px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    transform: scaleX(-1);
+}
+
+.s8logo6 {
+    /* MASHROOM LOGO */
+    height: 60px;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    transform: scaleX(-1);
+}
+
+.s8logo7 {
+    /* LEAF LOGO */
+    height: 90px;
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    transform: scaleX(-1) rotate(80deg);
+}
+
+.s8logo8 {
+    /* MIRCHI LOGO */
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 650px;
+    transform: scaleX(-1) rotate(40deg);
+    /* transform: rotate(180deg); */
+}
+
+
+/*    SECTION - 9    */
+
+.section9 {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.s9secmain {
+    display: flex;
+    margin-left: 100px;
+}
+
+.s9sec {
+    width: 500px;
+}
+.s9sec1 {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.s9link {
+    padding-left: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.s9link a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    line-height: 25px;
+}
+
+.s9img{
+    height: 30px;
+    margin-left: 3px;
+}
